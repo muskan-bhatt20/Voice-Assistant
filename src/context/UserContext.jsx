@@ -1,5 +1,5 @@
 import React, { Children, createContext, useState } from 'react'
-import run from '../gemini.js';
+import run from '@/gemini.js';
 
 
 export const dataContext=createContext()
